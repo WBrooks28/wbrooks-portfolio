@@ -1,0 +1,48 @@
+/* variables */
+:root {
+    --light-blue: #34aed8;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* begin style */
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* style header */
+header {
+    padding: 20px 35px;
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
