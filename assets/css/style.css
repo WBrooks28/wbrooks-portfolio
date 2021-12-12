@@ -1,6 +1,7 @@
 /* variables */
 :root {
     --light-blue: #34aed8;
+    --tan: #e6dc95;
 }
 
 /* reset */
@@ -27,12 +28,12 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: black;
+    color: var(--tan);
     margin: 0;
 }
 header a {
     text-decoration: none;
-    color: black;
+    color: var(--tan);
 }
 header nav ul {
     display: flex;
@@ -44,5 +45,25 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vw;
+}
+
+/* style about me */
+#about-me {
+    background-color: var(--tan);
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#about-me h2 {
+    font-size: 30px;
+    color: var(--light-blue);
+    margin: 20px;
+}
+.about-text {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
