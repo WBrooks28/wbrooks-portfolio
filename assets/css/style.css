@@ -166,6 +166,9 @@ h2 {
         position: relative;
         flex-direction: column;
     }
+    header h1 {
+        text-align: center;
+    }
     header nav ul {
         flex-direction: column;
     }
@@ -184,6 +187,12 @@ h2 {
     }
     .other-project {
         flex-direction: column;
+    }
+    #contact-links {
+        flex-direction: column;
+    }
+    #contact-links a {
+        font-size: 5vw;
     }
 }
 /* about img/text justify content: space-around */
